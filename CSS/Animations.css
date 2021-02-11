@@ -1,0 +1,27 @@
+
+.position{
+  background: blue;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  transform: translateX(-600px);
+
+  animation: x-axis 6s infinite linear;
+}
+
+.wrapper{
+  transform: translateY(-200px);
+  animation: y-axis 1s infinite ease-in-out;
+}
+  @keyframes x-axis{
+    50% {
+        transform: translateX(600px);
+    }
+  }
+
+  @keyframes y-axis{
+    50% {
+        transform: translateY(200px);
+    }
+  }

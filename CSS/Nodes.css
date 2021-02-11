@@ -1,0 +1,16 @@
+
+#container {
+  border: solid 2px black;
+  width: 700px;
+  height: 500px;
+  position: absolute;
+}
+
+.node {
+  background: red;
+  border: solid 5px black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+}
