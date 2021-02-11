@@ -25,7 +25,7 @@ function make(){
 
   //gives the nodes random positions
   //makes sure they are not touching
-  /*function positionNode(i){
+  function positionNode(i){
     var x = Math.floor((Math.random()* 650) + 1);
     var y = Math.floor((Math.random()* 450) + 1);
     console.log(x, y);
